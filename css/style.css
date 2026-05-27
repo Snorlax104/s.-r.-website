@@ -263,6 +263,141 @@ body {
     margin-bottom: 8px;
 }
 
+/* ── Game Page ── */
+
+.game-title {
+    font-size: 3.5rem;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.game-subtitle {
+    text-align: center;
+    color: #ff4b2b;
+    font-size: 1rem;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* Image placeholder */
+.img-placeholder {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 5%;
+}
+
+.img-placeholder img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    object-fit: cover;
+}
+
+/* Generic game page section */
+.game-page-section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 5%;
+}
+
+.game-page-section.alt-bg {
+    max-width: 100%;
+    background: #1a1a1a;
+    padding: 40px 10%;
+}
+
+.game-page-section.alt-bg .section-inner {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.game-page-section h2,
+.game-page-section .section-inner h2 {
+    border-left: 5px solid #ff4b2b;
+    padding-left: 15px;
+    margin-bottom: 25px;
+    font-size: 1.4rem;
+}
+
+/* Info list (scheda tecnica, analisi) */
+.info-list {
+    list-style: none;
+    padding: 0;
+}
+
+.info-list li {
+    background: #1a1a1a;
+    border-left: 3px solid #ff4b2b;
+    border-radius: 8px;
+    padding: 15px 20px;
+    margin-bottom: 12px;
+    line-height: 1.7;
+}
+
+.game-page-section.alt-bg .info-list li {
+    background: #0f0f0f;
+}
+
+/* Review text */
+.review-text p {
+    color: #ccc;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+/* Video / link cards */
+.video-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: #1a1a1a;
+    border-left: 3px solid #ff4b2b;
+    border-radius: 8px;
+    padding: 15px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 12px;
+    transition: 0.3s;
+}
+
+.video-link:hover {
+    background: #2a2a2a;
+    color: #ff4b2b;
+}
+
+.video-link .vl-icon {
+    font-size: 1.3rem;
+    flex-shrink: 0;
+}
+
+.video-link .vl-label {
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #ff4b2b;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 2px;
+}
+
+.video-link .vl-desc {
+    font-size: 0.85rem;
+    color: #888;
+}
+
+/* Quote block inside reviews */
+.quote-block {
+    border-left: 4px solid #ff4b2b;
+    padding: 15px 20px;
+    margin: 20px 0;
+    background: #1a1a1a;
+    border-radius: 0 8px 8px 0;
+    color: #aaa;
+    font-style: italic;
+}
+
 /* Footer */
 footer {
     text-align: center;
