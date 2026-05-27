@@ -398,7 +398,108 @@ body {
     font-style: italic;
 }
 
-/* Footer */
+/* ── Emulator Cards ── */
+
+.emu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.emu-card {
+    background: #1a1a1a;
+    border-radius: 12px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    transition: 0.3s;
+    border-left: 4px solid #ff4b2b;
+    display: block;
+}
+
+.emu-card:hover {
+    transform: scale(1.03);
+    background: #252525;
+}
+
+.emu-card-img {
+    height: 140px;
+    width: 100%;
+    background-color: #0f0f0f;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.emu-card-body {
+    padding: 20px;
+}
+
+.emu-card-body h3 {
+    font-size: 1.2rem;
+    margin-bottom: 6px;
+    color: #ffffff;
+}
+
+.emu-card-body .emu-tag {
+    font-size: 0.8rem;
+    color: #ff4b2b;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.emu-card-body p {
+    font-size: 0.9rem;
+    color: #888;
+    line-height: 1.6;
+}
+
+/* Legal box */
+.legal-box {
+    background: #1a1a1a;
+    border-left: 4px solid #ff4b2b;
+    border-radius: 0 8px 8px 0;
+    padding: 20px 25px;
+    margin: 20px 0;
+}
+
+.legal-box h3 {
+    color: #ff4b2b;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.legal-box p {
+    color: #ccc;
+    font-size: 0.9rem;
+    line-height: 1.7;
+}
+
+/* Emulator quick-list */
+.emu-quick-list {
+    list-style: none;
+    padding: 0;
+}
+
+.emu-quick-list li {
+    background: #1a1a1a;
+    border-radius: 8px;
+    padding: 12px 18px;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    color: #ccc;
+    line-height: 1.6;
+}
+
+.emu-quick-list li strong {
+    color: #ff4b2b;
+}
 footer {
     text-align: center;
     padding: 40px;
